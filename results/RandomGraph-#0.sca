@@ -1,0 +1,250 @@
+version 3
+run RandomGraph-0-20240111-08:07:42-19452
+attr configname RandomGraph
+attr datetime 20240111-08:07:42
+attr datetimef 20240111-080742
+attr experiment RandomGraph
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.RandomGraph
+attr processid 19452
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network networks.RandomGraph
+
+par RandomGraph.tic[0].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[0].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[0].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[9].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[9].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[9].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[1].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[1].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[1].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[4].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[4].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[4].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[1].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[1].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[1].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[5].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[5].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[5].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[1].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[1].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[1].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[6].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[6].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[6].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[1].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[1].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[1].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[8].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[8].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[8].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[2].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[2].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[2].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[3].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[3].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[3].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[2].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[2].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[2].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[4].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[4].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[4].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[2].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[2].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[2].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[5].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[5].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[5].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[2].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[2].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[2].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[9].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[9].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[9].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[3].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[3].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[3].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[5].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[5].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[5].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[3].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[3].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[3].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[8].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[8].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[8].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[3].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[3].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[3].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[9].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[9].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[9].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[4].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[4].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[4].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[5].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[5].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[5].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[4].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[4].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[4].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[7].ports$o[0].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[7].ports$o[0].channel disabled false
+attr mutable ""
+par RandomGraph.tic[7].ports$o[0].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[4].ports$o[4].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[4].ports$o[4].channel disabled false
+attr mutable ""
+par RandomGraph.tic[4].ports$o[4].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[8].ports$o[2].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[8].ports$o[2].channel disabled false
+attr mutable ""
+par RandomGraph.tic[8].ports$o[2].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[5].ports$o[4].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[5].ports$o[4].channel disabled false
+attr mutable ""
+par RandomGraph.tic[5].ports$o[4].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[8].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[8].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[8].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[6].ports$o[1].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[6].ports$o[1].channel disabled false
+attr mutable ""
+par RandomGraph.tic[6].ports$o[1].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[9].ports$o[3].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[9].ports$o[3].channel disabled false
+attr mutable ""
+par RandomGraph.tic[9].ports$o[3].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[8].ports$o[4].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[8].ports$o[4].channel disabled false
+attr mutable ""
+par RandomGraph.tic[8].ports$o[4].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[9].ports$o[4].channel typename "\"ned.DelayChannel\""
+par RandomGraph.tic[9].ports$o[4].channel disabled false
+attr mutable ""
+par RandomGraph.tic[9].ports$o[4].channel delay 0.0001s
+attr mutable ""
+attr unit s
+par RandomGraph.tic[0] typename "\"networks.Txc1\""
+par RandomGraph.tic[1] typename "\"networks.Txc1\""
+par RandomGraph.tic[2] typename "\"networks.Txc1\""
+par RandomGraph.tic[3] typename "\"networks.Txc1\""
+par RandomGraph.tic[4] typename "\"networks.Txc1\""
+par RandomGraph.tic[5] typename "\"networks.Txc1\""
+par RandomGraph.tic[6] typename "\"networks.Txc1\""
+par RandomGraph.tic[7] typename "\"networks.Txc1\""
+par RandomGraph.tic[8] typename "\"networks.Txc1\""
+par RandomGraph.tic[9] typename "\"networks.Txc1\""
+par RandomGraph typename "\"networks.RandomGraph\""
+par RandomGraph n 10
+attr prompt "Number of nodes"
+

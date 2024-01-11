@@ -1,0 +1,112 @@
+version 3
+run General-0-20240104-08:40:12-3336
+attr configname General
+attr datetime 20240104-08:40:12
+attr datetimef 20240104-084012
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Tictoc1
+attr processid 3336
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Tictoc1
+
+par Tictoc1.tic5.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic5.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic5.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic1.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic1.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic1.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic5.out[1].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic5.out[1].channel disabled false
+attr mutable ""
+par Tictoc1.tic5.out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic0.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic0.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic0.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic1.out[1].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic1.out[1].channel disabled false
+attr mutable ""
+par Tictoc1.tic1.out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic2.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic2.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic2.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic1.out[2].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic1.out[2].channel disabled false
+attr mutable ""
+par Tictoc1.tic1.out[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic3.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic3.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic3.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic1.out[3].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic1.out[3].channel disabled false
+attr mutable ""
+par Tictoc1.tic1.out[3].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic4.out[0].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic4.out[0].channel disabled false
+attr mutable ""
+par Tictoc1.tic4.out[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic3.out[1].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic3.out[1].channel disabled false
+attr mutable ""
+par Tictoc1.tic3.out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic4.out[1].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic4.out[1].channel disabled false
+attr mutable ""
+par Tictoc1.tic4.out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic4.out[2].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic4.out[2].channel disabled false
+attr mutable ""
+par Tictoc1.tic4.out[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic0.out[1].channel typename "\"Tictoc1.Channel\""
+par Tictoc1.tic0.out[1].channel disabled false
+attr mutable ""
+par Tictoc1.tic0.out[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Tictoc1.tic0 typename "\"Txc1\""
+par Tictoc1.tic1 typename "\"Txc1\""
+par Tictoc1.tic2 typename "\"Txc1\""
+par Tictoc1.tic3 typename "\"Txc1\""
+par Tictoc1.tic4 typename "\"Txc1\""
+par Tictoc1.tic5 typename "\"Txc1\""
+par Tictoc1 typename "\"Tictoc1\""
+

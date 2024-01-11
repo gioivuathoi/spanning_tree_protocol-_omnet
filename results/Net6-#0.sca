@@ -1,0 +1,112 @@
+version 3
+run Net6-0-20240111-05:40:51-18696
+attr configname Net6
+attr datetime 20240111-05:40:51
+attr datetimef 20240111-054051
+attr experiment Net6
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.Net6
+attr processid 18696
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network networks.Net6
+
+par Net6.tic[5].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[5].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[5].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[1].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[1].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[1].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[5].ports$o[1].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[5].ports$o[1].channel disabled false
+attr mutable ""
+par Net6.tic[5].ports$o[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[0].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[0].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[0].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[1].ports$o[1].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[1].ports$o[1].channel disabled false
+attr mutable ""
+par Net6.tic[1].ports$o[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[2].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[2].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[2].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[1].ports$o[2].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[1].ports$o[2].channel disabled false
+attr mutable ""
+par Net6.tic[1].ports$o[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[3].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[3].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[3].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[1].ports$o[3].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[1].ports$o[3].channel disabled false
+attr mutable ""
+par Net6.tic[1].ports$o[3].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[4].ports$o[0].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[4].ports$o[0].channel disabled false
+attr mutable ""
+par Net6.tic[4].ports$o[0].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[3].ports$o[1].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[3].ports$o[1].channel disabled false
+attr mutable ""
+par Net6.tic[3].ports$o[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[4].ports$o[1].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[4].ports$o[1].channel disabled false
+attr mutable ""
+par Net6.tic[4].ports$o[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[4].ports$o[2].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[4].ports$o[2].channel disabled false
+attr mutable ""
+par Net6.tic[4].ports$o[2].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[0].ports$o[1].channel typename "\"networks.Net6.Channel\""
+par Net6.tic[0].ports$o[1].channel disabled false
+attr mutable ""
+par Net6.tic[0].ports$o[1].channel delay 0.5s
+attr mutable ""
+attr unit s
+par Net6.tic[0] typename "\"networks.Txc1\""
+par Net6.tic[1] typename "\"networks.Txc1\""
+par Net6.tic[2] typename "\"networks.Txc1\""
+par Net6.tic[3] typename "\"networks.Txc1\""
+par Net6.tic[4] typename "\"networks.Txc1\""
+par Net6.tic[5] typename "\"networks.Txc1\""
+par Net6 typename "\"networks.Net6\""
+
